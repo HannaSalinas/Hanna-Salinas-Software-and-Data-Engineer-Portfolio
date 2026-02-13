@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "logo": "HS",
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Hanna Jineth Contreras Salinas",
+    "title": "Estudiante de Ingeniera de Software y Datos",
+    "subtitle": "Cursando 4to semestre, apasionada por el desarrollo web y los sistemas de datos. En constante aprendizaje de nuevas tecnologías y mejores prácticas para crear soluciones efectivas.",
+    "cta_contact": "Contáctame",
+    "cta_projects": "Ver Proyectos"
+  },
+  "about": {
+   "title": "Sobre mí",
+   "text": "Estudiante de Ingeniería de Software y Datos con sólida pasión por crear aplicaciones web robustas y sistemas de datos eficientes. Mi enfoque combina fundamentos técnicos sólidos con un ojo para el diseño limpio y la experiencia del usuario. Constantemente explorando nuevas tecnologías y mejores prácticas para entregar soluciones de alta calidad.",
+   "education": {
+    "title": "Formación",
+    "text": "Estudiante de Ingeniería en Software y Datos"
+  },
+  "focus": {
+    "title": "Áreas de Enfoque",
+    "text": "Full-Stack Development & Data Systems"
+  },
+  "approach": {
+    "title": "Enfoque",
+    "text": "Aprendizaje continuo y desarrollo de soluciones prácticas"
+  }
+},
+  "skills": {
+    "title": "Habilidades Técnicas",
+    "languages": {
+      "title": "Lenguajes de Programación"
+    },
+    "tools": {
+      "title": "Herramientas y Tecnologías"
+    },
+    "expertise": {
+      "title": "Experiencia Principal",
+      "fullstack": "Desarrollo Full-Stack",
+      "database": "Diseño de Bases de Datos",
+      "oop": "Programación Orientada a Objetos",
+      "web": "Aplicaciones Web"
+    },
+    "languages_spoken": {
+      "title": "Idiomas",
+      "spanish": "Español (Nativo)",
+      "english": "Inglés (Intermedio)"
+    }
+  },
+   "projects": {
+    "title": "Proyectos Académicos",
+    "database": {
+    "title": "MySQL Database Management System",
+    "tag": "Proyecto Académico",
+    "description": "Sistema de base de datos en MySQL con procedimientos almacenados CRUD, funciones definidas por el usuario y triggers de auditoría para seguimiento de cambios."
+  },
+  "java": {
+    "title": "Java Inventory Management System",
+    "tag": "Proyecto Académico",
+    "description": "Sistema de inventario en consola desarrollado en Java utilizando programación orientada a objetos, arreglos y operaciones CRUD."
+  },
+  "fullstack": {
+    "title": "Proyecto Full-Stack (Próximamente)",
+    "tag": "En Desarrollo",
+    "description": "Proyecto web en desarrollo enfocado en aplicaciones y sistemas de datos."
+  }
+},
+  "cv": {
+    "title": "Descarga mi Currículum",
+    "description": "Obtén una visión completa de mi experiencia, habilidades y formación.",
+    "button": "Descargar CV (PDF)"
+  },
+  "contact": {
+    "title": "Conectemos",
+    "subtitle": "Siempre estoy abierta a discutir nuevos proyectos, oportunidades o colaboraciones.",
+    "email": {
+      "title": "Email"
+    },
+    "github": {
+      "title": "GitHub"
+    },
+    "linkedin": {
+      "title": "LinkedIn",
+      "text": "Conecta conmigo"
+    }
+  },
+  "philosophy": {
+    "title": "Mi Filosofía",
+    "text": "Creo en los procesos suaves, en el poder de lo simple, y en que la tecnología también puede ser poesía. Cada línea de código es una oportunidad para crear algo significativo y elegante."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "tagline": "Creado con pasión y código"
+  }
+}

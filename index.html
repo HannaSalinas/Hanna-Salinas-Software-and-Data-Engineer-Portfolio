@@ -1,158 +1,281 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portafolio de Hanna</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hanna Salinas - Software Engineering student specializing in full-stack development, databases, and scalable systems.">
+  <meta name="keywords" content="software engineering, full-stack developer, web development, portfolio">
+  <meta name="author" content="Hanna Jineth Contreras Salinas">
+  
+  <title>Hanna Salinas | Software Engineer Portfolio</title>
+
+  <!-- Preconnect for performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <!-- ENCABEZADO -->
-  <header class="main-header">
-    <img src="perfil.jpg" alt="Foto de perfil de Hanna" class="header-img">
-    <div class="header-text">
-      <h1>Hanna Jineth Contreras Salinas</h1>
-      <p>Estudiante de Ingeniería de Software | Desarrolladora Full-Stack en formación</p>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Navigation -->
+  <nav class="main-nav" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#home" class="logo" data-i18n="nav.logo">HS</a>
+      <ul class="nav-links">
+        <li><a href="#about" data-i18n="nav.about">About</a></li>
+        <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+        <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+      <div class="lang-switch" role="group" aria-label="Language selector">
+        <button id="btn-es" class="lang-btn active" aria-label="Change to Spanish">ES</button>
+        <button id="btn-en" class="lang-btn" aria-label="Change to English">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting" data-i18n="hero.greeting">Hello, I'm</p>
+        <h1 class="hero-name" data-i18n="hero.name">Hanna Jineth Contreras Salinas</h1>
+        <p class="hero-title" data-i18n="hero.title">Software Engineer</p>
+        <p class="hero-subtitle" data-i18n="hero.subtitle">Passionate about building scalable solutions and crafting elegant code. Specialized in full-stack development with a focus on modern web technologies and data-driven systems.</p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary" data-i18n="hero.cta_contact">Get in Touch</a>
+          <a href="#projects" class="btn btn-secondary" data-i18n="hero.cta_projects">View Projects</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="image-wrapper">
+          <img src="assets/images/perfil.jpg" alt="Hanna Contreras - Software Engineer" loading="lazy">
+        </div>
+      </div>
     </div>
   </header>
 
-  <main>
-    <!-- TARJETA LATERAL -->
-    <aside class="profile-card">
-      <img src="perfil.jpg" alt="Retrato de Hanna" class="profile-img">
-      <div class="profile-info">
-        <h3>Hanna J. Contreras</h3>
-        <p>💻 Desarrolladora en formación</p>
-        <p>📍 Chigorodó, Colombia</p>
-      </div>
-    </aside>
+  <main id="main-content">
+   <!-- About Section -->
+<section id="about" class="section about-section">
+  <div class="container">
+    <h2 class="section-title" data-i18n="about.title">About Me</h2>
+    <div class="about-content">
+      <p class="about-text" data-i18n="about.text"></p>
 
-    <!-- SOBRE MÍ -->
-    <section class="about">
-      <h2>Sobre mí</h2>
-      <p>Soy Hanna, una creadora de rutas digitales que camina entre versos y líneas de código. Mi objetivo es unir el diseño, la funcionalidad y la creatividad para construir experiencias únicas.</p>
-      <ul>
-        <li>📌 Horas infinitas de dedicación y amor por lo que hago.</li>
-        <li>📌 En constante evolución: inglés, nuevos proyectos en GitHub y escritura.</li>
-      </ul>
-      <blockquote>
-        "Creo en los procesos suaves y en el poder de lo simple.<br>
-        Creo que cada interfaz puede contar una historia.<br>
-        Y creo que la tecnología también puede ser poesía."
-      </blockquote>
-    </section>
-
-    <!-- LADO ESCRITORA -->
-    <section class="writer">
-      <h2>Mi Lado Escritora ✍️</h2>
-      <p>La escritura me ha acompañado desde niña. Entre cuadernos, ideas y noches largas, escribo para sanar y entender el mundo.</p>
-      <ul class="writing-list">
-        <li>📘 <a href="textos/Cada 375 años - Poemario.pdf" target="_blank">Cada 375 años – Poemario</a></li>
-        <li>✉️ <a href="textos/Cartas desde el noveno piso - Hanna Salinas.docx.pdf" target="_blank">Cartas desde el noveno piso</a></li>
-        <li>✉️ <a href="textos/Cartas para que no me olvides - Hanna Salinas .docx.pdf" target="_blank">Cartas para que no me olvides</a></li>
-        <li>✉️ <a href="textos/No se pesa el silencio - Hanna Salinas.docx.pdf" target="_blank">No se pesa el silencio</a></li>
-      </ul>
-    </section>
-
-    <!-- TECNOLOGÍAS -->
-    <section class="skills">
-      <h2>Tecnologías</h2>
-      <ul class="tech-list">
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>Git & GitHub</li>
-        <li>VS Code</li>
-        <li>Linux</li>
-      </ul>
-    </section>
-
-    <!-- PROYECTOS -->
-    <section class="projects">
-      <h2>Mis Proyectos</h2>
-      <div class="slider-container">
-        <button class="slider-btn left">⟵</button>
-        <div class="slides">
-          <div class="slide">
-            <img src="mis-notas-captura.jpg" alt="App Mis Notas" />
-            <p><strong>📝 App Mis Notas</strong><br>
-              App web para tomar y guardar notas con modo oscuro.<br>
-              <a href="https://hannasalinas.github.io/mis-notas/" target="_blank">🔗 Ver App</a> | 
-              <a href="https://github.com/HannaSalinas/mis-notas" target="_blank">📁 Código</a>
-            </p>
-          </div>
-          <div class="slide">
-            <img src="proyecto2.jpg" alt="Proyecto 2" />
-            <p>Proyecto 2 (en desarrollo)</p>
-          </div>
-          <div class="slide">
-            <img src="proyecto3.jpg" alt="Proyecto 3" />
-            <p>Proyecto 3 (en desarrollo)</p>
-          </div>
+      <div class="about-highlights">
+        <div class="highlight-item">
+          <span class="highlight-icon">🎓</span>
+          <h3 data-i18n="about.education.title">Education</h3>
+          <p data-i18n="about.education.text"></p>
         </div>
-        <button class="slider-btn right">⟶</button>
+
+        <div class="highlight-item">
+          <span class="highlight-icon">💡</span>
+          <h3 data-i18n="about.focus.title">Focus Areas</h3>
+          <p data-i18n="about.focus.text"></p>
+        </div>
+
+        <div class="highlight-item">
+          <span class="highlight-icon">🚀</span>
+          <h3 data-i18n="about.approach.title">Approach</h3>
+          <p data-i18n="about.approach.text"></p>
+        </div>
       </div>
-    </section>
-
- <!-- CERTIFICADOS -->
-<section class="certificates">
-  <h2>Certificados 📜</h2>
-  <div class="certificates-grid">
-    
-    <!-- Certificado 1 -->
-    <div class="certificate-card">
-      <img src="certificado-google-ti.png" 
-           alt="Certificado Google TI" 
-           onclick="openModal('certificado-google-ti.png')">
-      <h4>Google IT Support</h4>
-      <button class="btn-view" onclick="openModal('certificado-google-ti.png')">Ver</button>
     </div>
-
-    <!-- Certificado 2 -->
-    <div class="certificate-card">
-      <img src="certificado-marketing-coursera.png" 
-           alt="Certificado Marketing Digital" 
-           onclick="openModal('certificado-marketing-coursera.png')">
-      <h4>Marketing Digital - Coursera</h4>
-      <button class="btn-view" onclick="openModal('certificado-marketing-coursera.png')">Ver</button>
-    </div>
-
   </div>
 </section>
 
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="skills.title">Technical Skills</h2>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon">💻</div>
+            <h3 data-i18n="skills.languages.title">Programming Languages</h3>
+            <ul class="skill-list">
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>SQL</li>
+              <li>HTML5 & CSS3</li>
+            </ul>
+          </article>
 
-    <!-- MODAL -->
-    <div id="modal" class="modal">
-      <span class="modal-close" onclick="closeModal()">&times;</span>
-      <img class="modal-content" id="modal-img">
-    </div>
+          <article class="skill-card">
+            <div class="skill-icon">🛠️</div>
+            <h3 data-i18n="skills.tools.title">Tools & Technologies</h3>
+            <ul class="skill-list">
+              <li>Git & GitHub</li>
+              <li>VS Code</li>
+              <li>Linux & Windows</li>
+              <li>VirtualBox</li>
+              <li>MySQL</li>
+            </ul>
+          </article>
 
-    <!-- CV -->
-    <section class="cv">
-      <h2>Descarga mi Hoja de Vida</h2>
-      <a href="Hoja de vida Hanna Contreras.pdf" download class="btn-cv">📄 Descargar CV</a>
+          <article class="skill-card">
+            <div class="skill-icon">🎯</div>
+            <h3 data-i18n="skills.expertise.title">Core Expertise</h3>
+            <ul class="skill-list">
+              <li data-i18n="skills.expertise.fullstack">Full-Stack Development</li>
+              <li data-i18n="skills.expertise.database">Database Design</li>
+              <li data-i18n="skills.expertise.oop">Object-Oriented Programming</li>
+              <li data-i18n="skills.expertise.web">Web Applications</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">🌍</div>
+            <h3 data-i18n="skills.languages_spoken.title">Languages</h3>
+            <ul class="skill-list">
+              <li data-i18n="skills.languages_spoken.spanish">Spanish (Native)</li>
+              <li data-i18n="skills.languages_spoken.english">English (Intermediate)</li>
+            </ul>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <!-- CONTACTO -->
-    <section class="contact">
-      <h2>Contacto</h2>
-      <p>Email: <a href="mailto:salinashanna123@gmail.com">salinashanna123@gmail.com</a></p>
-      <p>GitHub: <a href="https://github.com/HannaSalinas" target="_blank">@HannaSalinas</a></p>
-      <p>Campsite: <a href="https://campsite.to/halow" target="_blank">🌐 Mi Campsite</a></p>
+<!-- Projects Section -->
+<section id="projects" class="section projects-section">
+  <div class="container">
+    <h2 class="section-title" data-i18n="projects.title">Featured Projects</h2>
+
+    <div class="projects-grid">
+
+      <!-- SQL PROJECT -->
+      <article class="project-card">
+        <div class="project-header">
+          <h3 data-i18n="projects.database.title"></h3>
+          <span class="project-tag" data-i18n="projects.database.tag"></span>
+        </div>
+
+        <p class="project-description" data-i18n="projects.database.description"></p>
+
+        <div class="project-tech">
+          <span class="tech-tag">MySQL</span>
+          <span class="tech-tag">SQL</span>
+          <span class="tech-tag">Stored Procedures</span>
+          <span class="tech-tag">Triggers</span>
+        </div>
+
+        <a href="https://github.com/HannaSalinas/TallerPractico_Hanna_Contreras" target="_blank" class="project-link">
+          GitHub Repository →
+        </a>
+      </article>
+
+
+      <!-- JAVA PROJECT -->
+      <article class="project-card">
+        <div class="project-header">
+          <h3 data-i18n="projects.java.title"></h3>
+          <span class="project-tag" data-i18n="projects.java.tag"></span>
+        </div>
+
+        <p class="project-description" data-i18n="projects.java.description"></p>
+
+        <div class="project-tech">
+          <span class="tech-tag">Java</span>
+          <span class="tech-tag">OOP</span>
+          <span class="tech-tag">Arrays</span>
+          <span class="tech-tag">Console App</span>
+        </div>
+
+        <a href="https://github.com/HannaSalinas/java-inventory-management-system" target="_blank" class="project-link">
+          GitHub Repository →
+        </a>
+      </article>
+
+
+      <!-- FUTURE -->
+      <article class="project-card project-upcoming">
+        <div class="project-header">
+          <h3 data-i18n="projects.fullstack.title"></h3>
+          <span class="project-tag project-tag-progress" data-i18n="projects.fullstack.tag"></span>
+        </div>
+
+        <p class="project-description" data-i18n="projects.fullstack.description"></p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+    <!-- CV Download Section -->
+    <section id="cv" class="section cv-section">
+      <div class="container cv-container">
+        <div class="cv-content">
+          <h2 data-i18n="cv.title">Download My Resume</h2>
+          <p data-i18n="cv.description">Get a comprehensive overview of my experience, skills, and education.</p>
+          <a href="assets/images/Hoja_De_Vida_Hanna_Contreras.pdf" download class="btn btn-download" aria-label="Download CV as PDF">
+            <span class="download-icon">📄</span>
+            <span data-i18n="cv.button">Download CV (PDF)</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="contact.title">Let's Connect</h2>
+        <p class="contact-subtitle" data-i18n="contact.subtitle">I'm always open to discussing new projects, opportunities, or collaborations.</p>
+        <div class="contact-grid">
+          <a href="mailto:salinashanna123@gmail.com" class="contact-card" aria-label="Send email">
+            <div class="contact-icon">📧</div>
+            <h3 data-i18n="contact.email.title">Email</h3>
+            <p>salinashanna123@gmail.com</p>
+          </a>
+          <a href="https://github.com/HannaSalinas" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="Visit GitHub profile">
+            <div class="contact-icon">💻</div>
+            <h3 data-i18n="contact.github.title">GitHub</h3>
+            <p>github.com/HannaSalinas</p>
+          </a>
+          <a href="https://linkedin.com/in/hannacontreras" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="Visit LinkedIn profile">
+            <div class="contact-icon">💼</div>
+            <h3 data-i18n="contact.linkedin.title">LinkedIn</h3>
+            <p data-i18n="contact.linkedin.text">Connect with me</p>
+          </a>
+        </div>
+      </div>
     </section>
   </main>
 
-  <!-- PIE -->
-  <footer>
-    <p>🌸 Portafolio hecho con 💜 por Hanna Jineth Contreras Salinas – 2025</p>
+  <!-- Philosophy Button (Easter Egg) -->
+  <button id="philosophyBtn" class="philosophy-btn" aria-label="View philosophy">
+    <span>✨</span>
+  </button>
+
+  <!-- Philosophy Modal -->
+  <div id="philosophyModal" class="modal" role="dialog" aria-labelledby="philosophyTitle" aria-hidden="true">
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="modal-content">
+      <button id="closeModal" class="modal-close" aria-label="Close modal">&times;</button>
+      <h3 id="philosophyTitle" data-i18n="philosophy.title">My Philosophy</h3>
+      <p class="philosophy-text" data-i18n="philosophy.text"></p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="currentYear">2026</span> Hanna Salinas. <span data-i18n="footer.rights">All rights reserved.</span></p>
+      <p class="footer-tagline" data-i18n="footer.tagline">Crafted with passion and code</p>
+    </div>
   </footer>
 
+  <!-- Scripts -->
   <script src="script.js"></script>
 </body>
 </html>
-
 
 

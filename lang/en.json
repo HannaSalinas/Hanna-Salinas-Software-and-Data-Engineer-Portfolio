@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "logo": "HS",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Hanna Jineth Contreras Salinas",
+    "title": "Software and Data Engineer Student",
+    "subtitle": "Currently in 4th semester, passionate about web development and data systems. Continuously learning new technologies and best practices to create effective solutions.",
+    "cta_contact": "Get in Touch",
+    "cta_projects": "View Projects"
+  },
+   "about": {
+   "title": "About Me",
+   "text": "Software and Data Engineering student with a strong passion for creating robust web applications and efficient data systems. My approach combines solid technical foundations with an eye for clean design and user experience. Constantly exploring new technologies and best practices to deliver high-quality solutions.",
+   "education": {
+    "title": "Education",
+    "text": "Software and Data Engineering Student"
+  },
+  "focus": {
+    "title": "Focus Areas",
+    "text": "Full-Stack Development & Data Systems"
+  },
+  "approach": {
+    "title": "Approach",
+    "text": "Continuous learning and building practical solutions"
+  }
+},
+   "skills": {
+    "title": "Technical Skills",
+    "languages": {
+      "title": "Programming Languages"
+    },
+    "tools": {
+      "title": "Tools & Technologies"
+    },
+    "expertise": {
+      "title": "Core Expertise",
+      "fullstack": "Full-Stack Development",
+      "database": "Database Design",
+      "oop": "Object-Oriented Programming",
+      "web": "Web Applications"
+    },
+    "languages_spoken": {
+      "title": "Languages",
+      "spanish": "Spanish (Native)",
+      "english": "English (Intermediate)"
+    }
+  },
+   "projects": {
+    "title": "Academic Projects",
+    "database": {
+    "title": "MySQL Database Management System",
+    "tag": "Academic Project",
+    "description": "MySQL database system implementing CRUD stored procedures, user-defined functions, and audit triggers to track data changes."
+  },
+  "java": {
+    "title": "Java Inventory Management System",
+    "tag": "Academic Project",
+    "description": "Console-based inventory system developed in Java using object-oriented programming, arrays, and CRUD operations."
+  },
+  "fullstack": {
+    "title": "Full-Stack Project (Upcoming)",
+    "tag": "In Progress",
+    "description": "Web application project under development focused on data-driven systems."
+  }
+},
+  "cv": {
+    "title": "Download My Resume",
+    "description": "Get a comprehensive overview of my experience, skills, and education.",
+    "button": "Download CV (PDF)"
+  },
+  "contact": {
+    "title": "Let's Connect",
+    "subtitle": "I'm always open to discussing new projects, opportunities, or collaborations.",
+    "email": {
+      "title": "Email"
+    },
+    "github": {
+      "title": "GitHub"
+    },
+    "linkedin": {
+      "title": "LinkedIn",
+      "text": "Connect with me"
+    }
+  },
+  "philosophy": {
+    "title": "My Philosophy",
+    "text": "I believe in gentle processes, in the power of simplicity, and that technology can also be poetry. Every line of code is an opportunity to create something meaningful and elegant."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "tagline": "Crafted with passion and code"
+  }
+}
