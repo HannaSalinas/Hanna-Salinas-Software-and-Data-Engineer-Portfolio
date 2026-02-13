@@ -11,7 +11,7 @@
 
 *A modern, responsive, and bilingual portfolio showcasing my journey as a Software and Data Engineering student.*
 
-[🌐 Live Demo](#) • [📧 Contact Me](mailto:salinashanna123@gmail.com) • [💼 LinkedIn](https://linkedin.com/in/hannacontreras)
+[🌐 Live Demo](https://hannasalinas.github.io/Hanna-Salinas-Software-and-Data-Engineer-Portfolio/) • [📧 Contact Me](salinashanna123@gmail.com) • [💼 LinkedIn](https://linkedin.com/in/hannacontreras)
 
 </div>
 
@@ -295,7 +295,7 @@ All text content is managed through JSON translation files:
 - 📧 Email: [salinashanna123@gmail.com](mailto:salinashanna123@gmail.com)
 - 💼 LinkedIn: [linkedin.com/in/hannacontreras](https://linkedin.com/in/hannacontreras)
 - 💻 GitHub: [@HannaSalinas](https://github.com/HannaSalinas)
-- 🌐 Portfolio: [Live Site](#)
+- 🌐 Portfolio: [Live Site](https://hannasalinas.github.io/Hanna-Salinas-Software-and-Data-Engineer-Portfolio/)
 
 ---
 
