@@ -58,6 +58,11 @@
     "tag": "Proyecto Académico",
     "description": "Sistema de base de datos en MySQL con procedimientos almacenados CRUD, funciones definidas por el usuario y triggers de auditoría para seguimiento de cambios."
   },
+      "mongodb": {
+      "title": "Sistema Académico con MongoDB",
+      "tag": "Proyecto Académico",
+      "description": "Sistema completo de gestión académica en MongoDB con validación de esquemas JSON, operaciones CRUD, transacciones, agregaciones avanzadas y change streams. Incluye documentación técnica completa."
+    },
   "java": {
     "title": "Java Inventory Management System",
     "tag": "Proyecto Académico",

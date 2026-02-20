@@ -58,6 +58,11 @@
     "tag": "Academic Project",
     "description": "MySQL database system implementing CRUD stored procedures, user-defined functions, and audit triggers to track data changes."
   },
+      "mongodb": {
+      "title": "Academic System with MongoDB",
+      "tag": "Academic Project",
+      "description": "Complete academic management system built with MongoDB featuring JSON schema validation, CRUD operations, transactions, advanced aggregations and change streams. Includes comprehensive technical documentation."
+    },
   "java": {
     "title": "Java Inventory Management System",
     "tag": "Academic Project",
