@@ -150,10 +150,81 @@
   <div class="container">
     <h2 class="section-title" data-i18n="projects.title">Featured Projects</h2>
 
+    <!-- Project Filters -->
+    <div class="project-filters">
+      <button class="filter-btn active" data-filter="all" data-i18n="projects.filters.all">All</button>
+      <button class="filter-btn" data-filter="data" data-i18n="projects.filters.data">Data & Databases</button>
+      <button class="filter-btn" data-filter="backend" data-i18n="projects.filters.backend">Backend & OOP</button>
+      <button class="filter-btn" data-filter="fullstack" data-i18n="projects.filters.fullstack">Full-Stack</button>
+    </div>
+
     <div class="projects-grid">
 
-      <!-- SQL PROJECT -->
-      <article class="project-card">
+      <!-- DATA MART SQL PROJECT -->
+      <article class="project-card" data-category="data">
+        <div class="project-header">
+          <h3 data-i18n="projects.datamart.title"></h3>
+          <span class="project-tag" data-i18n="projects.datamart.tag"></span>
+        </div>
+
+        <p class="project-description" data-i18n="projects.datamart.description"></p>
+
+        <div class="project-tech">
+          <span class="tech-tag">SQL</span>
+          <span class="tech-tag">Star Schema</span>
+          <span class="tech-tag">Data Warehouse</span>
+          <span class="tech-tag">BI</span>
+        </div>
+
+        <a href="https://github.com/HannaSalinas/jardineria-datamart-star-schema" target="_blank" class="project-link">
+          GitHub Repository →
+        </a>
+      </article>
+
+      <!-- EMPLOYEE MANAGEMENT JAVA -->
+      <article class="project-card" data-category="backend">
+        <div class="project-header">
+          <h3 data-i18n="projects.employee.title"></h3>
+          <span class="project-tag" data-i18n="projects.employee.tag"></span>
+        </div>
+
+        <p class="project-description" data-i18n="projects.employee.description"></p>
+
+        <div class="project-tech">
+          <span class="tech-tag">Java</span>
+          <span class="tech-tag">OOP Advanced</span>
+          <span class="tech-tag">Interfaces</span>
+          <span class="tech-tag">CRUD</span>
+        </div>
+
+        <a href="https://github.com/HannaSalinas/employee-management-system-java" target="_blank" class="project-link">
+          GitHub Repository →
+        </a>
+      </article>
+
+      <!-- MongoDB PROJECT -->
+      <article class="project-card" data-category="data">
+        <div class="project-header">
+          <h3 data-i18n="projects.mongodb.title"></h3>
+          <span class="project-tag" data-i18n="projects.mongodb.tag"></span>
+        </div>
+
+        <p class="project-description" data-i18n="projects.mongodb.description"></p>
+
+        <div class="project-tech">
+          <span class="tech-tag">MongoDB</span>
+          <span class="tech-tag">NoSQL</span>
+          <span class="tech-tag">Aggregations</span>
+          <span class="tech-tag">Transactions</span>
+        </div>
+
+        <a href="https://github.com/HannaSalinas/MongoDB-project" target="_blank" class="project-link">
+          GitHub Repository →
+        </a>
+      </article>
+
+      <!-- MySQL PROJECT -->
+      <article class="project-card" data-category="data">
         <div class="project-header">
           <h3 data-i18n="projects.database.title"></h3>
           <span class="project-tag" data-i18n="projects.database.tag"></span>
@@ -171,31 +242,10 @@
         <a href="https://github.com/HannaSalinas/mysql-database-management-system" target="_blank" class="project-link">
           GitHub Repository →
         </a>
-
-        <!-- MongoDB PROJECT -->
       </article>
-               <article class="project-card">
-            <div class="project-header">
-              <h3 data-i18n="projects.mongodb.title"></h3>
-              <span class="project-tag" data-i18n="projects.mongodb.tag"></span>
-            </div>
 
-            <p class="project-description" data-i18n="projects.mongodb.description"></p>
-
-            <div class="project-tech">
-              <span class="tech-tag">MongoDB</span>
-              <span class="tech-tag">NoSQL</span>
-              <span class="tech-tag">Aggregations</span>
-              <span class="tech-tag">Transactions</span>
-            </div>
-
-            <a href="https://github.com/HannaSalinas/MongoDB-project" target="_blank" class="project-link">
-              GitHub Repository →
-            </a>
-          </article>
-
-      <!-- JAVA PROJECT -->
-      <article class="project-card">
+      <!-- JAVA INVENTORY PROJECT -->
+      <article class="project-card" data-category="backend">
         <div class="project-header">
           <h3 data-i18n="projects.java.title"></h3>
           <span class="project-tag" data-i18n="projects.java.tag"></span>
@@ -215,9 +265,8 @@
         </a>
       </article>
 
-
-      <!-- FUTURE -->
-      <article class="project-card project-upcoming">
+      <!-- FUTURE FULLSTACK -->
+      <article class="project-card project-upcoming" data-category="fullstack">
         <div class="project-header">
           <h3 data-i18n="projects.fullstack.title"></h3>
           <span class="project-tag project-tag-progress" data-i18n="projects.fullstack.tag"></span>

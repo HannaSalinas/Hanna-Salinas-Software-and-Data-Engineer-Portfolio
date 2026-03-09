@@ -9,14 +9,14 @@
   "hero": {
     "greeting": "Hello, I'm",
     "name": "Hanna Jineth Contreras Salinas",
-    "title": "Software and Data Engineer Student",
-    "subtitle": "Currently in 5th semester, passionate about web development and data systems. Continuously learning new technologies and best practices to create effective solutions.",
+    "title": "Software and Data Engineering Student",
+    "subtitle": "5th semester student passionate about web development and data systems. Continuously learning new technologies and best practices to create effective solutions.",
     "cta_contact": "Get in Touch",
     "cta_projects": "View Projects"
   },
-   "about": {
+  "about": {
    "title": "About Me",
-   "text": "Software and Data Engineering student with a strong passion for creating robust web applications and efficient data systems. My approach combines solid technical foundations with an eye for clean design and user experience. Constantly exploring new technologies and best practices to deliver high-quality solutions.",
+   "text": "Software and Data Engineering student with a strong passion for building robust web applications and efficient data systems. My approach combines solid technical foundations with an eye for clean design and user experience. Constantly exploring new technologies and best practices to deliver high-quality solutions.",
    "education": {
     "title": "Education",
     "text": "Software and Data Engineering Student"
@@ -27,10 +27,10 @@
   },
   "approach": {
     "title": "Approach",
-    "text": "Continuous learning and building practical solutions"
+    "text": "Continuous learning and practical solution development"
   }
 },
-   "skills": {
+  "skills": {
     "title": "Technical Skills",
     "languages": {
       "title": "Programming Languages"
@@ -52,26 +52,42 @@
     }
   },
    "projects": {
-    "title": "Academic Projects",
+    "title": "Featured Projects",
+    "filters": {
+      "all": "All",
+      "data": "Data & Databases",
+      "backend": "Backend & OOP",
+      "fullstack": "Full-Stack"
+    },
+    "datamart": {
+      "title": "Jardinería Data Mart - Star Schema",
+      "tag": "Data Warehousing",
+      "description": "Dimensional data mart with star schema for sales analytics. Includes staging area, ETL processes, and business intelligence queries to answer key analytical questions."
+    },
+    "employee": {
+      "title": "Employee Management System",
+      "tag": "Advanced Java OOP",
+      "description": "Enterprise Java system with inheritance, polymorphism, abstraction and interfaces. Package-based architecture with Repository pattern for employee and company management with salary calculations."
+    },
     "database": {
     "title": "MySQL Database Management System",
     "tag": "Academic Project",
-    "description": "MySQL database system implementing CRUD stored procedures, user-defined functions, and audit triggers to track data changes."
+    "description": "MySQL database system with CRUD stored procedures, user-defined functions, and audit triggers for change tracking."
   },
       "mongodb": {
       "title": "Academic System with MongoDB",
       "tag": "Academic Project",
-      "description": "Complete academic management system built with MongoDB featuring JSON schema validation, CRUD operations, transactions, advanced aggregations and change streams. Includes comprehensive technical documentation."
+      "description": "Complete academic management system in MongoDB with JSON schema validation, CRUD operations, transactions, advanced aggregations and change streams. Includes comprehensive technical documentation."
     },
   "java": {
     "title": "Java Inventory Management System",
     "tag": "Academic Project",
-    "description": "Console-based inventory system developed in Java using object-oriented programming, arrays, and CRUD operations."
+    "description": "Console-based inventory system developed in Java using object-oriented programming, arrays and CRUD operations."
   },
   "fullstack": {
-    "title": "Full-Stack Project (Upcoming)",
-    "tag": "In Progress",
-    "description": "Web application project under development focused on data-driven systems."
+    "title": "Full-Stack Project (Coming Soon)",
+    "tag": "In Development",
+    "description": "Web project in development focused on applications and data systems."
   }
 },
   "cv": {
@@ -95,7 +111,7 @@
   },
   "philosophy": {
     "title": "My Philosophy",
-    "text": "I believe in gentle processes, in the power of simplicity, and that technology can also be poetry. Every line of code is an opportunity to create something meaningful and elegant."
+    "text": "I believe in smooth processes, in the power of simplicity, and that technology can also be poetry. Every line of code is an opportunity to create something meaningful and elegant."
   },
   "footer": {
     "rights": "All rights reserved.",

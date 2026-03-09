@@ -52,7 +52,23 @@
     }
   },
    "projects": {
-    "title": "Proyectos Académicos",
+    "title": "Proyectos Destacados",
+    "filters": {
+      "all": "Todos",
+      "data": "Datos y BD",
+      "backend": "Backend & OOP",
+      "fullstack": "Full-Stack"
+    },
+    "datamart": {
+      "title": "Jardinería Data Mart - Star Schema",
+      "tag": "Data Warehousing",
+      "description": "Data mart con modelo estrella dimensional para análisis de ventas. Incluye staging area, ETL processes y consultas de business intelligence para responder preguntas analíticas clave."
+    },
+    "employee": {
+      "title": "Sistema de Gestión de Empleados",
+      "tag": "Java OOP Avanzado",
+      "description": "Sistema empresarial Java con herencia, polimorfismo, abstracción e interfaces. Arquitectura en paquetes con patrón Repository para gestión de empleados y empresas con cálculo de salarios."
+    },
     "database": {
     "title": "MySQL Database Management System",
     "tag": "Proyecto Académico",

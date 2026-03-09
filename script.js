@@ -413,6 +413,50 @@ if (typeof module !== 'undefined' && module.exports) {
   module.exports = { loadLanguage, state };
 }
 
+// ===================================
+// PROJECT FILTERING FUNCTIONALITY
+// ===================================
+
+document.addEventListener('DOMContentLoaded', () => {
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const projectCards = document.querySelectorAll('.project-card');
+
+  // Filter projects
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const filter = btn.getAttribute('data-filter');
+
+      // Update active button
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      // Filter projects with animation
+      projectCards.forEach((card, index) => {
+        const category = card.getAttribute('data-category');
+
+        if (filter === 'all' || category === filter) {
+          // Show card with staggered animation
+          setTimeout(() => {
+            card.classList.remove('hidden');
+            card.classList.add('visible');
+            card.style.animationDelay = `${index * 0.1}s`;
+          }, 50);
+        } else {
+          // Hide card
+          card.classList.add('hidden');
+          card.classList.remove('visible');
+        }
+      });
+    });
+  });
+
+  // Initialize - show all cards
+  projectCards.forEach((card, index) => {
+    card.classList.add('visible');
+    card.style.animationDelay = `${index * 0.1}s`;
+  });
+});
+
 
 
   
