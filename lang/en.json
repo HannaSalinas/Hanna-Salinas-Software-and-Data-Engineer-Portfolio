@@ -15,21 +15,21 @@
     "cta_projects": "View Projects"
   },
   "about": {
-   "title": "About Me",
-   "text": "Software and Data Engineering student with a strong passion for building robust web applications and efficient data systems. My approach combines solid technical foundations with an eye for clean design and user experience. Constantly exploring new technologies and best practices to deliver high-quality solutions.",
-   "education": {
-    "title": "Education",
-    "text": "Software and Data Engineering Student"
+    "title": "About Me",
+    "text": "Software and Data Engineering student with a strong passion for building robust web applications and efficient data systems. My approach combines solid technical foundations with an eye for clean design and user experience. Constantly exploring new technologies and best practices to deliver high-quality solutions.",
+    "education": {
+      "title": "Education",
+      "text": "Software and Data Engineering Student"
+    },
+    "focus": {
+      "title": "Focus Areas",
+      "text": "Full-Stack Development & Data Systems"
+    },
+    "approach": {
+      "title": "Approach",
+      "text": "Continuous learning and practical solution development"
+    }
   },
-  "focus": {
-    "title": "Focus Areas",
-    "text": "Full-Stack Development & Data Systems"
-  },
-  "approach": {
-    "title": "Approach",
-    "text": "Continuous learning and practical solution development"
-  }
-},
   "skills": {
     "title": "Technical Skills",
     "languages": {
@@ -51,45 +51,51 @@
       "english": "English (Intermediate)"
     }
   },
-   "projects": {
+  "projects": {
     "title": "Featured Projects",
     "filters": {
       "all": "All",
       "data": "Data & Databases",
       "backend": "Backend & OOP",
+      "datascience": "Data Science",
       "fullstack": "Full-Stack"
     },
-    "datamart": {
-      "title": "Jardinería Data Mart - Star Schema",
-      "tag": "Data Warehousing",
-      "description": "Dimensional data mart with star schema for sales analytics. Includes staging area, ETL processes, and business intelligence queries to answer key analytical questions."
+    "talentcorp": {
+      "title": "BI TalentCorp — HR Data Warehouse",
+      "tag": "Business Intelligence",
+      "description": "Full Business Intelligence system for TalentCorp S.A.: OLTP database, ETL with SCD Type 2, dimensional Data Warehouse, and 15 strategic HR KPIs. Includes data governance, role-based security, and Colombian holiday calendar."
     },
-    "employee": {
-      "title": "Employee Management System",
-      "tag": "Advanced Java OOP",
-      "description": "Enterprise Java system with inheritance, polymorphism, abstraction and interfaces. Package-based architecture with Repository pattern for employee and company management with salary calculations."
-    },
-    "database": {
-    "title": "MySQL Database Management System",
-    "tag": "Academic Project",
-    "description": "MySQL database system with CRUD stored procedures, user-defined functions, and audit triggers for change tracking."
-  },
-      "mongodb": {
+    "mongodb": {
       "title": "Academic System with MongoDB",
       "tag": "Academic Project",
       "description": "Complete academic management system in MongoDB with JSON schema validation, CRUD operations, transactions, advanced aggregations and change streams. Includes comprehensive technical documentation."
     },
-  "java": {
-    "title": "Java Inventory Management System",
-    "tag": "Academic Project",
-    "description": "Console-based inventory system developed in Java using object-oriented programming, arrays and CRUD operations."
+    "localrent": {
+      "title": "LocalRent — Rental Management System",
+      "tag": "Advanced Java OOP",
+      "description": "Rental management system in Java featuring Singleton and Factory Method design patterns, functional programming with Streams and lambdas, and custom exception handling."
+    },
+    "database": {
+      "title": "MySQL Database Management System",
+      "tag": "Academic Project",
+      "description": "MySQL database system with CRUD stored procedures, user-defined functions, and audit triggers for change tracking."
+    },
+    "gimnasio": {
+      "title": "Multivariate Analysis — Gym Members",
+      "tag": "Data Science",
+      "description": "Exploratory analysis, correlation matrix and PCA on 970 real records with 16 variables. Includes data cleaning, full descriptive statistics, heatmaps and biplot with dimensional reduction to 4 components."
+    },
+    "binomial": {
+      "title": "Binomial Distribution Simulation",
+      "tag": "Data Science",
+      "description": "Industrial assembly process simulation using binomial distribution in Python. Covers descriptive statistics, theoretical probabilities with PMF and CDF, comparative visualization, and Chi² goodness-of-fit test."
+    },
+    "fullstack": {
+      "title": "Full-Stack Project (Coming Soon)",
+      "tag": "In Development",
+      "description": "Web project in development focused on applications and data systems."
+    }
   },
-  "fullstack": {
-    "title": "Full-Stack Project (Coming Soon)",
-    "tag": "In Development",
-    "description": "Web project in development focused on applications and data systems."
-  }
-},
   "cv": {
     "title": "Download My Resume",
     "description": "Get a comprehensive overview of my experience, skills, and education.",

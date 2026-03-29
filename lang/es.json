@@ -15,21 +15,21 @@
     "cta_projects": "Ver Proyectos"
   },
   "about": {
-   "title": "Sobre mí",
-   "text": "Estudiante de Ingeniería de Software y Datos con sólida pasión por crear aplicaciones web robustas y sistemas de datos eficientes. Mi enfoque combina fundamentos técnicos sólidos con un ojo para el diseño limpio y la experiencia del usuario. Constantemente explorando nuevas tecnologías y mejores prácticas para entregar soluciones de alta calidad.",
-   "education": {
-    "title": "Formación",
-    "text": "Estudiante de Ingeniería en Software y Datos"
+    "title": "Sobre mí",
+    "text": "Estudiante de Ingeniería de Software y Datos con sólida pasión por crear aplicaciones web robustas y sistemas de datos eficientes. Mi enfoque combina fundamentos técnicos sólidos con un ojo para el diseño limpio y la experiencia del usuario. Constantemente explorando nuevas tecnologías y mejores prácticas para entregar soluciones de alta calidad.",
+    "education": {
+      "title": "Formación",
+      "text": "Estudiante de Ingeniería en Software y Datos"
+    },
+    "focus": {
+      "title": "Áreas de Enfoque",
+      "text": "Full-Stack Development & Data Systems"
+    },
+    "approach": {
+      "title": "Enfoque",
+      "text": "Aprendizaje continuo y desarrollo de soluciones prácticas"
+    }
   },
-  "focus": {
-    "title": "Áreas de Enfoque",
-    "text": "Full-Stack Development & Data Systems"
-  },
-  "approach": {
-    "title": "Enfoque",
-    "text": "Aprendizaje continuo y desarrollo de soluciones prácticas"
-  }
-},
   "skills": {
     "title": "Habilidades Técnicas",
     "languages": {
@@ -51,45 +51,51 @@
       "english": "Inglés (Intermedio)"
     }
   },
-   "projects": {
+  "projects": {
     "title": "Proyectos Destacados",
     "filters": {
       "all": "Todos",
       "data": "Datos y BD",
       "backend": "Backend & OOP",
+      "datascience": "Data Science",
       "fullstack": "Full-Stack"
     },
-    "datamart": {
-      "title": "Jardinería Data Mart - Star Schema",
-      "tag": "Data Warehousing",
-      "description": "Data mart con modelo estrella dimensional para análisis de ventas. Incluye staging area, ETL processes y consultas de business intelligence para responder preguntas analíticas clave."
+    "talentcorp": {
+      "title": "BI TalentCorp — Data Warehouse RRHH",
+      "tag": "Business Intelligence",
+      "description": "Sistema completo de Business Intelligence para TalentCorp S.A.: base de datos OLTP, ETL con SCD Tipo 2, Data Warehouse dimensional y 15 KPIs estratégicos de RRHH. Incluye gobernanza de datos, seguridad por roles y calendario con festivos colombianos."
     },
-    "employee": {
-      "title": "Sistema de Gestión de Empleados",
-      "tag": "Java OOP Avanzado",
-      "description": "Sistema empresarial Java con herencia, polimorfismo, abstracción e interfaces. Arquitectura en paquetes con patrón Repository para gestión de empleados y empresas con cálculo de salarios."
-    },
-    "database": {
-    "title": "MySQL Database Management System",
-    "tag": "Proyecto Académico",
-    "description": "Sistema de base de datos en MySQL con procedimientos almacenados CRUD, funciones definidas por el usuario y triggers de auditoría para seguimiento de cambios."
-  },
-      "mongodb": {
+    "mongodb": {
       "title": "Sistema Académico con MongoDB",
       "tag": "Proyecto Académico",
       "description": "Sistema completo de gestión académica en MongoDB con validación de esquemas JSON, operaciones CRUD, transacciones, agregaciones avanzadas y change streams. Incluye documentación técnica completa."
     },
-  "java": {
-    "title": "Java Inventory Management System",
-    "tag": "Proyecto Académico",
-    "description": "Sistema de inventario en consola desarrollado en Java utilizando programación orientada a objetos, arreglos y operaciones CRUD."
+    "localrent": {
+      "title": "LocalRent — Sistema de Arriendos",
+      "tag": "Java OOP Avanzado",
+      "description": "Sistema de gestión de arriendos en Java con patrones de diseño Singleton y Factory Method, programación funcional con Streams y lambdas, y manejo de excepciones personalizadas."
+    },
+    "database": {
+      "title": "MySQL Database Management System",
+      "tag": "Proyecto Académico",
+      "description": "Sistema de base de datos en MySQL con procedimientos almacenados CRUD, funciones definidas por el usuario y triggers de auditoría para seguimiento de cambios."
+    },
+    "gimnasio": {
+      "title": "Análisis Multivariado — Miembros Gimnasio",
+      "tag": "Data Science",
+      "description": "Análisis exploratorio, matriz de correlación y PCA sobre 970 registros reales con 16 variables. Incluye limpieza de datos, estadísticas descriptivas completas, heatmaps y biplot con reducción dimensional a 4 componentes."
+    },
+    "binomial": {
+      "title": "Simulación Distribución Binomial",
+      "tag": "Data Science",
+      "description": "Simulación de proceso de ensamblaje industrial con distribución binomial en Python. Incluye estadísticas descriptivas, probabilidades teóricas con PMF y CDF, visualización comparativa y prueba de bondad de ajuste Chi²."
+    },
+    "fullstack": {
+      "title": "Proyecto Full-Stack (Próximamente)",
+      "tag": "En Desarrollo",
+      "description": "Proyecto web en desarrollo enfocado en aplicaciones y sistemas de datos."
+    }
   },
-  "fullstack": {
-    "title": "Proyecto Full-Stack (Próximamente)",
-    "tag": "En Desarrollo",
-    "description": "Proyecto web en desarrollo enfocado en aplicaciones y sistemas de datos."
-  }
-},
   "cv": {
     "title": "Descarga mi Currículum",
     "description": "Obtén una visión completa de mi experiencia, habilidades y formación.",

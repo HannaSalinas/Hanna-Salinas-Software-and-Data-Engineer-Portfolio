@@ -63,35 +63,36 @@
   </header>
 
   <main id="main-content">
-   <!-- About Section -->
-<section id="about" class="section about-section">
-  <div class="container">
-    <h2 class="section-title" data-i18n="about.title">About Me</h2>
-    <div class="about-content">
-      <p class="about-text" data-i18n="about.text"></p>
 
-      <div class="about-highlights">
-        <div class="highlight-item">
-          <span class="highlight-icon">🎓</span>
-          <h3 data-i18n="about.education.title">Education</h3>
-          <p data-i18n="about.education.text"></p>
-        </div>
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="about.title">About Me</h2>
+        <div class="about-content">
+          <p class="about-text" data-i18n="about.text"></p>
 
-        <div class="highlight-item">
-          <span class="highlight-icon">💡</span>
-          <h3 data-i18n="about.focus.title">Focus Areas</h3>
-          <p data-i18n="about.focus.text"></p>
-        </div>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <span class="highlight-icon">🎓</span>
+              <h3 data-i18n="about.education.title">Education</h3>
+              <p data-i18n="about.education.text"></p>
+            </div>
 
-        <div class="highlight-item">
-          <span class="highlight-icon">🚀</span>
-          <h3 data-i18n="about.approach.title">Approach</h3>
-          <p data-i18n="about.approach.text"></p>
+            <div class="highlight-item">
+              <span class="highlight-icon">💡</span>
+              <h3 data-i18n="about.focus.title">Focus Areas</h3>
+              <p data-i18n="about.focus.text"></p>
+            </div>
+
+            <div class="highlight-item">
+              <span class="highlight-icon">🚀</span>
+              <h3 data-i18n="about.approach.title">Approach</h3>
+              <p data-i18n="about.approach.text"></p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
     <!-- Skills Section -->
     <section id="skills" class="section skills-section">
@@ -117,8 +118,8 @@
               <li>Git & GitHub</li>
               <li>VS Code</li>
               <li>Linux & Windows</li>
-              <li>VirtualBox</li>
-              <li>MySQL</li>
+              <li>Docker</li>
+              <li>MySQL · SQL Server · MongoDB</li>
             </ul>
           </article>
 
@@ -145,139 +146,164 @@
       </div>
     </section>
 
-<!-- Projects Section -->
-<section id="projects" class="section projects-section">
-  <div class="container">
-    <h2 class="section-title" data-i18n="projects.title">Featured Projects</h2>
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="projects.title">Featured Projects</h2>
 
-    <!-- Project Filters -->
-    <div class="project-filters">
-      <button class="filter-btn active" data-filter="all" data-i18n="projects.filters.all">All</button>
-      <button class="filter-btn" data-filter="data" data-i18n="projects.filters.data">Data & Databases</button>
-      <button class="filter-btn" data-filter="backend" data-i18n="projects.filters.backend">Backend & OOP</button>
-      <button class="filter-btn" data-filter="fullstack" data-i18n="projects.filters.fullstack">Full-Stack</button>
-    </div>
-
-    <div class="projects-grid">
-
-      <!-- DATA MART SQL PROJECT -->
-      <article class="project-card" data-category="data">
-        <div class="project-header">
-          <h3 data-i18n="projects.datamart.title"></h3>
-          <span class="project-tag" data-i18n="projects.datamart.tag"></span>
+        <!-- Project Filters -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all" data-i18n="projects.filters.all">All</button>
+          <button class="filter-btn" data-filter="data" data-i18n="projects.filters.data">Data & Databases</button>
+          <button class="filter-btn" data-filter="backend" data-i18n="projects.filters.backend">Backend & OOP</button>
+          <button class="filter-btn" data-filter="datascience" data-i18n="projects.filters.datascience">Data Science</button>
+          <button class="filter-btn" data-filter="fullstack" data-i18n="projects.filters.fullstack">Full-Stack</button>
         </div>
 
-        <p class="project-description" data-i18n="projects.datamart.description"></p>
+        <div class="projects-grid">
 
-        <div class="project-tech">
-          <span class="tech-tag">SQL</span>
-          <span class="tech-tag">Star Schema</span>
-          <span class="tech-tag">Data Warehouse</span>
-          <span class="tech-tag">BI</span>
+          <!-- BI TALENTCORP — FEATURED -->
+          <article class="project-card project-featured" data-category="data">
+            <div class="project-header">
+              <h3 data-i18n="projects.talentcorp.title"></h3>
+              <span class="project-tag" data-i18n="projects.talentcorp.tag"></span>
+            </div>
+
+            <p class="project-description" data-i18n="projects.talentcorp.description"></p>
+
+            <div class="project-tech">
+              <span class="tech-tag">SQL Server</span>
+              <span class="tech-tag">Star Schema</span>
+              <span class="tech-tag">ETL</span>
+              <span class="tech-tag">SCD Tipo 2</span>
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">BI</span>
+            </div>
+
+            <a href="https://github.com/HannaSalinas/Ev4-BI-RRHH-TalentCorp" target="_blank" class="project-link">
+              GitHub Repository →
+            </a>
+          </article>
+
+          <!-- MONGODB PROJECT -->
+          <article class="project-card" data-category="data">
+            <div class="project-header">
+              <h3 data-i18n="projects.mongodb.title"></h3>
+              <span class="project-tag" data-i18n="projects.mongodb.tag"></span>
+            </div>
+
+            <p class="project-description" data-i18n="projects.mongodb.description"></p>
+
+            <div class="project-tech">
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">NoSQL</span>
+              <span class="tech-tag">Aggregations</span>
+              <span class="tech-tag">Transactions</span>
+            </div>
+
+            <a href="https://github.com/HannaSalinas/MongoDB-project" target="_blank" class="project-link">
+              GitHub Repository →
+            </a>
+          </article>
+
+          <!-- LOCALRENT JAVA -->
+          <article class="project-card" data-category="backend">
+            <div class="project-header">
+              <h3 data-i18n="projects.localrent.title"></h3>
+              <span class="project-tag" data-i18n="projects.localrent.tag"></span>
+            </div>
+
+            <p class="project-description" data-i18n="projects.localrent.description"></p>
+
+            <div class="project-tech">
+              <span class="tech-tag">Java</span>
+              <span class="tech-tag">Singleton</span>
+              <span class="tech-tag">Factory Method</span>
+              <span class="tech-tag">Streams</span>
+            </div>
+
+            <a href="https://github.com/HannaSalinas/LocalRent-POO-IUDigital" target="_blank" class="project-link">
+              GitHub Repository →
+            </a>
+          </article>
+
+          <!-- MYSQL PROJECT -->
+          <article class="project-card" data-category="data">
+            <div class="project-header">
+              <h3 data-i18n="projects.database.title"></h3>
+              <span class="project-tag" data-i18n="projects.database.tag"></span>
+            </div>
+
+            <p class="project-description" data-i18n="projects.database.description"></p>
+
+            <div class="project-tech">
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">SQL</span>
+              <span class="tech-tag">Stored Procedures</span>
+              <span class="tech-tag">Triggers</span>
+            </div>
+
+            <a href="https://github.com/HannaSalinas/mysql-database-management-system" target="_blank" class="project-link">
+              GitHub Repository →
+            </a>
+          </article>
+
+          <!-- MULTIVARIATE ANALYSIS PYTHON -->
+          <article class="project-card" data-category="datascience">
+            <div class="project-header">
+              <h3 data-i18n="projects.gimnasio.title"></h3>
+              <span class="project-tag" data-i18n="projects.gimnasio.tag"></span>
+            </div>
+
+            <p class="project-description" data-i18n="projects.gimnasio.description"></p>
+
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Pandas</span>
+              <span class="tech-tag">Scikit-learn</span>
+              <span class="tech-tag">PCA</span>
+              <span class="tech-tag">Seaborn</span>
+            </div>
+
+            <a href="https://github.com/HannaSalinas/multivariate-analysis-gym-members" target="_blank" class="project-link">
+              GitHub Repository →
+            </a>
+          </article>
+
+          <!-- BINOMIAL DISTRIBUTION PYTHON -->
+          <article class="project-card" data-category="datascience">
+            <div class="project-header">
+              <h3 data-i18n="projects.binomial.title"></h3>
+              <span class="project-tag" data-i18n="projects.binomial.tag"></span>
+            </div>
+
+            <p class="project-description" data-i18n="projects.binomial.description"></p>
+
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">NumPy</span>
+              <span class="tech-tag">SciPy</span>
+              <span class="tech-tag">Matplotlib</span>
+            </div>
+
+            <a href="https://github.com/HannaSalinas/binomial-distribution-simulation" target="_blank" class="project-link">
+              GitHub Repository →
+            </a>
+          </article>
+
+          <!-- FUTURE FULLSTACK -->
+          <article class="project-card project-upcoming" data-category="fullstack">
+            <div class="project-header">
+              <h3 data-i18n="projects.fullstack.title"></h3>
+              <span class="project-tag project-tag-progress" data-i18n="projects.fullstack.tag"></span>
+            </div>
+
+            <p class="project-description" data-i18n="projects.fullstack.description"></p>
+          </article>
+
         </div>
-
-        <a href="https://github.com/HannaSalinas/jardineria-datamart-star-schema" target="_blank" class="project-link">
-          GitHub Repository →
-        </a>
-      </article>
-
-      <!-- EMPLOYEE MANAGEMENT JAVA -->
-      <article class="project-card" data-category="backend">
-        <div class="project-header">
-          <h3 data-i18n="projects.employee.title"></h3>
-          <span class="project-tag" data-i18n="projects.employee.tag"></span>
-        </div>
-
-        <p class="project-description" data-i18n="projects.employee.description"></p>
-
-        <div class="project-tech">
-          <span class="tech-tag">Java</span>
-          <span class="tech-tag">OOP Advanced</span>
-          <span class="tech-tag">Interfaces</span>
-          <span class="tech-tag">CRUD</span>
-        </div>
-
-        <a href="https://github.com/HannaSalinas/employee-management-system-java" target="_blank" class="project-link">
-          GitHub Repository →
-        </a>
-      </article>
-
-      <!-- MongoDB PROJECT -->
-      <article class="project-card" data-category="data">
-        <div class="project-header">
-          <h3 data-i18n="projects.mongodb.title"></h3>
-          <span class="project-tag" data-i18n="projects.mongodb.tag"></span>
-        </div>
-
-        <p class="project-description" data-i18n="projects.mongodb.description"></p>
-
-        <div class="project-tech">
-          <span class="tech-tag">MongoDB</span>
-          <span class="tech-tag">NoSQL</span>
-          <span class="tech-tag">Aggregations</span>
-          <span class="tech-tag">Transactions</span>
-        </div>
-
-        <a href="https://github.com/HannaSalinas/MongoDB-project" target="_blank" class="project-link">
-          GitHub Repository →
-        </a>
-      </article>
-
-      <!-- MySQL PROJECT -->
-      <article class="project-card" data-category="data">
-        <div class="project-header">
-          <h3 data-i18n="projects.database.title"></h3>
-          <span class="project-tag" data-i18n="projects.database.tag"></span>
-        </div>
-
-        <p class="project-description" data-i18n="projects.database.description"></p>
-
-        <div class="project-tech">
-          <span class="tech-tag">MySQL</span>
-          <span class="tech-tag">SQL</span>
-          <span class="tech-tag">Stored Procedures</span>
-          <span class="tech-tag">Triggers</span>
-        </div>
-
-        <a href="https://github.com/HannaSalinas/mysql-database-management-system" target="_blank" class="project-link">
-          GitHub Repository →
-        </a>
-      </article>
-
-      <!-- JAVA INVENTORY PROJECT -->
-      <article class="project-card" data-category="backend">
-        <div class="project-header">
-          <h3 data-i18n="projects.java.title"></h3>
-          <span class="project-tag" data-i18n="projects.java.tag"></span>
-        </div>
-
-        <p class="project-description" data-i18n="projects.java.description"></p>
-
-        <div class="project-tech">
-          <span class="tech-tag">Java</span>
-          <span class="tech-tag">OOP</span>
-          <span class="tech-tag">Arrays</span>
-          <span class="tech-tag">Console App</span>
-        </div>
-
-        <a href="https://github.com/HannaSalinas/java-inventory-management-system" target="_blank" class="project-link">
-          GitHub Repository →
-        </a>
-      </article>
-
-      <!-- FUTURE FULLSTACK -->
-      <article class="project-card project-upcoming" data-category="fullstack">
-        <div class="project-header">
-          <h3 data-i18n="projects.fullstack.title"></h3>
-          <span class="project-tag project-tag-progress" data-i18n="projects.fullstack.tag"></span>
-        </div>
-
-        <p class="project-description" data-i18n="projects.fullstack.description"></p>
-      </article>
-
-    </div>
-  </div>
-</section>
+      </div>
+    </section>
 
     <!-- CV Download Section -->
     <section id="cv" class="section cv-section">
@@ -285,7 +311,7 @@
         <div class="cv-content">
           <h2 data-i18n="cv.title">Download My Resume</h2>
           <p data-i18n="cv.description">Get a comprehensive overview of my experience, skills, and education.</p>
-          <a href="assets/images/Hoja_De_Vida_Hanna_Contreras.pdf" download class="btn btn-download" aria-label="Download CV as PDF">
+          <a href="assets/images/Hanna_Contreras_CV.pdf" download class="btn btn-download" aria-label="Download CV as PDF">
             <span class="download-icon">📄</span>
             <span data-i18n="cv.button">Download CV (PDF)</span>
           </a>
