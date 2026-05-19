@@ -9,25 +9,25 @@
   "hero": {
     "greeting": "Hello, I'm",
     "name": "Hanna Jineth Contreras Salinas",
-    "title": "Software and Data Engineering Student",
-    "subtitle": "5th semester student passionate about web development and data systems. Continuously learning new technologies and best practices to create effective solutions.",
+    "title": "Software Developer | Backend · Full-Stack · Data",
+    "subtitle": "I build REST APIs, data systems and web applications using Java, Node.js, React and SQL. Real projects on GitHub, professional architecture and modern stack.",
     "cta_contact": "Get in Touch",
     "cta_projects": "View Projects"
   },
   "about": {
     "title": "About Me",
-    "text": "Software and Data Engineering student with a strong passion for building robust web applications and efficient data systems. My approach combines solid technical foundations with an eye for clean design and user experience. Constantly exploring new technologies and best practices to deliver high-quality solutions.",
+    "text": "Software developer with a solid foundation in backend, databases and web applications. I've built real projects ranging from a complete Data Warehouse with SQL Server and Docker to a 3D interactive platform with React and Node.js. Self-taught, organized, and passionate about creating clean and scalable solutions. Selected on merit for the Delfín Program 2026 — research internship at Universidad del Valle.",
     "education": {
       "title": "Education",
-      "text": "Software and Data Engineering Student"
+      "text": "Software and Data Engineering — IUDigital (5th semester)"
     },
     "focus": {
       "title": "Focus Areas",
-      "text": "Full-Stack Development & Data Systems"
+      "text": "Backend · REST APIs · Full-Stack · Databases"
     },
     "approach": {
-      "title": "Approach",
-      "text": "Continuous learning and practical solution development"
+      "title": "What Sets Me Apart",
+      "text": "Real projects in production · Researcher — Delfín Program 2026"
     }
   },
   "skills": {
@@ -43,12 +43,12 @@
       "fullstack": "Full-Stack Development",
       "database": "Database Design",
       "oop": "Object-Oriented Programming",
-      "web": "Web Applications"
+      "web": "REST APIs & Microservices"
     },
     "languages_spoken": {
       "title": "Languages",
       "spanish": "Spanish (Native)",
-      "english": "English (Intermediate)"
+      "english": "English (B1-B2 · Fluent technical reading)"
     }
   },
   "projects": {
@@ -90,10 +90,10 @@
       "tag": "Data Science",
       "description": "Industrial assembly process simulation using binomial distribution in Python. Covers descriptive statistics, theoretical probabilities with PMF and CDF, comparative visualization, and Chi² goodness-of-fit test."
     },
-    "fullstack": {
-      "title": "Full-Stack Project (Coming Soon)",
-      "tag": "In Development",
-      "description": "Web project in development focused on applications and data systems."
+    "terrall": {
+      "title": "Terrall — 3D Interactive Platform of Colombia",
+      "tag": "Actively In Development",
+      "description": "Fullstack web platform centralizing tourism, transport, education and economy of Colombia through a 3D interactive map. Modular architecture designed to scale. Stack: React + Three.js · Node.js + NestJS · PostgreSQL + MongoDB."
     }
   },
   "cv": {
@@ -103,7 +103,7 @@
   },
   "contact": {
     "title": "Let's Connect",
-    "subtitle": "I'm always open to discussing new projects, opportunities, or collaborations.",
+    "subtitle": "Always open to new projects, opportunities and collaborations.",
     "email": {
       "title": "Email"
     },

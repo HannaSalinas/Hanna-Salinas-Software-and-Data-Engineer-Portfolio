@@ -9,25 +9,25 @@
   "hero": {
     "greeting": "Hola, soy",
     "name": "Hanna Jineth Contreras Salinas",
-    "title": "Estudiante de Ingeniería de Software y Datos",
-    "subtitle": "Cursando 5to semestre, apasionada por el desarrollo web y los sistemas de datos. En constante aprendizaje de nuevas tecnologías y mejores prácticas para crear soluciones efectivas.",
+    "title": "Software Developer | Backend · Full-Stack · Data",
+    "subtitle": "Desarrollo APIs REST, sistemas de datos y aplicaciones web con Java, Node.js, React y SQL. Proyectos reales en GitHub, arquitectura profesional y stack moderno.",
     "cta_contact": "Contáctame",
     "cta_projects": "Ver Proyectos"
   },
   "about": {
     "title": "Sobre mí",
-    "text": "Estudiante de Ingeniería de Software y Datos con sólida pasión por crear aplicaciones web robustas y sistemas de datos eficientes. Mi enfoque combina fundamentos técnicos sólidos con un ojo para el diseño limpio y la experiencia del usuario. Constantemente explorando nuevas tecnologías y mejores prácticas para entregar soluciones de alta calidad.",
+    "text": "Desarrolladora de software con base sólida en backend, bases de datos y aplicaciones web. He construido proyectos reales que van desde un Data Warehouse completo con SQL Server y Docker hasta una plataforma interactiva 3D con React y Node.js. Soy autodidacta, organizada y apasionada por crear soluciones limpias y escalables. Seleccionada por mérito para el Programa Delfín 2026 — estancia de investigación en la Universidad del Valle.",
     "education": {
       "title": "Formación",
-      "text": "Estudiante de Ingeniería en Software y Datos"
+      "text": "Ingeniería de Software y Datos — IUDigital (5to semestre)"
     },
     "focus": {
       "title": "Áreas de Enfoque",
-      "text": "Full-Stack Development & Data Systems"
+      "text": "Backend · APIs REST · Full-Stack · Bases de Datos"
     },
     "approach": {
-      "title": "Enfoque",
-      "text": "Aprendizaje continuo y desarrollo de soluciones prácticas"
+      "title": "Diferencial",
+      "text": "Proyectos reales en producción · Investigadora Programa Delfín 2026"
     }
   },
   "skills": {
@@ -43,12 +43,12 @@
       "fullstack": "Desarrollo Full-Stack",
       "database": "Diseño de Bases de Datos",
       "oop": "Programación Orientada a Objetos",
-      "web": "Aplicaciones Web"
+      "web": "APIs REST & Microservicios"
     },
     "languages_spoken": {
       "title": "Idiomas",
       "spanish": "Español (Nativo)",
-      "english": "Inglés (Intermedio)"
+      "english": "Inglés (B1-B2 · Lectura técnica fluida)"
     }
   },
   "projects": {
@@ -90,10 +90,10 @@
       "tag": "Data Science",
       "description": "Simulación de proceso de ensamblaje industrial con distribución binomial en Python. Incluye estadísticas descriptivas, probabilidades teóricas con PMF y CDF, visualización comparativa y prueba de bondad de ajuste Chi²."
     },
-    "fullstack": {
-      "title": "Proyecto Full-Stack (Próximamente)",
-      "tag": "En Desarrollo",
-      "description": "Proyecto web en desarrollo enfocado en aplicaciones y sistemas de datos."
+    "terrall": {
+      "title": "Terrall — Plataforma Interactiva 3D de Colombia",
+      "tag": "En Desarrollo Activo",
+      "description": "Plataforma web fullstack que centraliza turismo, transporte, educación y economía de Colombia mediante un mapa 3D interactivo. Arquitectura modular diseñada para escalar. Stack: React + Three.js · Node.js + NestJS · PostgreSQL + MongoDB."
     }
   },
   "cv": {
@@ -103,7 +103,7 @@
   },
   "contact": {
     "title": "Conectemos",
-    "subtitle": "Siempre estoy abierta a discutir nuevos proyectos, oportunidades o colaboraciones.",
+    "subtitle": "Siempre abierta a nuevos proyectos, oportunidades y colaboraciones.",
     "email": {
       "title": "Email"
     },
